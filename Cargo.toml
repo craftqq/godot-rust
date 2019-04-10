@@ -2,11 +2,13 @@
 
 [workspace]
 members = [
-    "sys",
     "gdnative",
-    "geom",
+    "gdnative-sys",
+    "gdnative-derive",
+    "gdnative-core",
+    "gdnative-bindings",
     "test",
+    "bindings_generator",
     "examples/hello_world",
     "examples/spinning_cube",
-    "examples/manually_registered",
 ]
